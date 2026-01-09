@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Courses — Lyceum of Aparri</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar">
+  <div class="nav-left"><img src="images/images.png" class="nav-logo"><span class="brand-text">Lyceum of Aparri</span></div>
+  <div class="nav-right desktop-only"><a href="index.html">Home</a><a href="news.html">News</a><a href="courses.html" class="highlight-link">Courses</a><a href="gallery.html">Gallery</a><a href="about.html">About</a><a href="contact.html">Contact</a></div>
+  <button id="hamburger2" class="hamburger mobile-only">☰</button>
+</nav>
+<div id="mobileMenu2" class="mobile-menu"></div>
+
+<header class="page-header">
+  <h1>Courses Offered</h1>
+  <p>College and Basic Education programs</p>
+</header>
+
+<section class="controls">
+  <button class="filter-btn active" data-filter="all">All</button>
+  <button class="filter-btn" data-filter="college">College</button>
+  <button class="filter-btn" data-filter="basic">Basic Education</button>
+</section>
+
+<section class="courses-grid" id="coursesGrid">
+  <!-- college -->
+  <article class="course-card" data-type="college"><h3>College of Liberal Arts</h3><p>Humanities, social sciences, teacher formation.</p></article>
+  <article class="course-card" data-type="college"><h3>College of Criminal Justice</h3><p>Criminology & public safety formation.</p></article>
+  <article class="course-card" data-type="college"><h3>College of Health</h3><p>Nursing and allied health programs.</p></article>
+  <article class="course-card" data-type="college"><h3>Graduate School</h3><p>Graduate degrees & continuing education.</p></article>
+  <article class="course-card" data-type="college"><h3>College of Commerce</h3><p>BSBA and business programs.</p></article>
+  <article class="course-card" data-type="college"><h3>College of Education</h3><p>BSE, BEED — teacher formation programs.</p></article>
+  <article class="course-card" data-type="college"><h3>Information & Computing Sciences</h3><p>Computer Science, IT, applied computing.</p></article>
+  <article class="course-card" data-type="college"><h3>College of Engineering</h3><p>Engineering & technology programs.</p></article>
+
+  <!-- basic education -->
+  <article class="course-card" data-type="basic"><h3>Elementary School</h3><p>Foundational formation grounded in Catholic values.</p></article>
+  <article class="course-card" data-type="basic"><h3>Junior High School</h3><p>Academic & faith formation for adolescents.</p></article>
+  <article class="course-card" data-type="basic"><h3>Senior High School</h3><p>Tracks and preparation for higher study and vocation.</p></article>
+</section>
+
+<footer class="simple-footer">© 2025 Lyceum of Aparri</footer>
+<script src="js/main.js"></script>
+
+</body>
+</html>

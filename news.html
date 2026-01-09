@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>News — Lyceum of Aparri</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar">
+  <div class="nav-left"><img src="images/images.png" class="nav-logo"><span class="brand-text">Lyceum of Aparri</span></div>
+  <div class="nav-right desktop-only"><a href="index.html">Home</a><a href="news.html" class="highlight-link">News</a><a href="courses.html">Courses</a><a href="gallery.html">Gallery</a><a href="about.html">About</a><a href="contact.html">Contact</a></div>
+  <button id="hamburger3" class="hamburger mobile-only">☰</button>
+</nav>
+<div id="mobileMenu3" class="mobile-menu"></div>
+
+<header class="page-header"><h1>News & Events</h1><p>Latest announcements and campus events</p></header>
+
+<section class="news-controls">
+  <button class="news-filter active" data-filter="all">All</button>
+  <button class="news-filter" data-filter="Sports">Sports</button>
+  <button class="news-filter" data-filter="Outreach">Outreach</button>
+  <button class="news-filter" data-filter="Evangelization">Evangelization</button>
+</section>
+
+<section class="news-grid" id="newsGrid">
+  <!-- seed items will be loaded by js/news.js -->
+</section>
+
+<footer class="simple-footer">© 2025 Lyceum of Aparri</footer>
+<script src="js/main.js"></script>
+
+</body>
+</html>
